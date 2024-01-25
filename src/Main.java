@@ -243,13 +243,15 @@ public class Main{
     public static void main(String[] args) {
         CarRentalSystem rentalSystem = new CarRentalSystem();
 
-        Car car1 = new Car("C001", "Toyota", "Camry", 600.0); // Different base price per day for each car
-        Car car2 = new Car("C002", "Honda", "Accord", 700.0);
+        Car car1 = new Car("C001", "Tata", "Nexon", 600.0); // Different base price per day for each car
+        Car car2 = new Car("C002", "Honda", "Amaze", 700.0);
         Car car3 = new Car("C003", "Mahindra", "Thar", 1500.0);
+        Car car4 = new Car("C004", "Maruti Suzuki", "Brezza", 1000.0);
+
         rentalSystem.addCar(car1);
         rentalSystem.addCar(car2);
         rentalSystem.addCar(car3);
-
+        rentalSystem.addCar(car4);
         rentalSystem.menu();
     }
 }
