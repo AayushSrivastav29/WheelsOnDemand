@@ -7,10 +7,6 @@ This GitHub repository contains a Java implementation of a Car Rental System. Th
 - [Introduction](#introduction)
 - [Features](#features)
 - [How to Use](#how-to-use)
-- [Classes](#classes)
-- [Sample Usage](#sample-usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
